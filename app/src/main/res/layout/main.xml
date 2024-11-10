@@ -1,0 +1,49 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:background="@color/backside">
+		<ImageView
+			android:id="@+id/imageview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/logo_transparent"
+			android:scaleType="center"
+			android:layout_weight="1" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Powered by:"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="@color/text"
+				android:alpha="0.6" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:src="@drawable/pal_1"
+				android:scaleType="fitCenter"
+				android:alpha="0.6" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

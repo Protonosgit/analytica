@@ -1,0 +1,73 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/edit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:layout_weight="1"
+		android:background="@drawable/backside">
+		<TextView
+			android:id="@+id/textview13"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="50dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Notenübersicht"
+			android:textSize="30sp"
+			android:textColor="@color/text" />
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="right"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+				android:padding="8dp"
+				android:text="Zurücksetzen"
+				android:textSize="16sp"
+				android:textColor="#EF5350"
+				style="?attr/materialButtonOutlinedStyle"
+				app:strokeColor="#EF5350" />
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="12dp"
+				android:text="Neuer Eintrag"
+				android:textSize="16sp"
+				android:textColor="@color/text"
+				android:layout_gravity="right" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview12"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="50dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Ganz schön leer hier 🗿"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/text"
+			android:alpha="0.6" />
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recyclerview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:background="@drawable/dialog">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="30dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:text="Informationen:"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			android:textColor="@color/text" />
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Latest update (10.09.2023)\nLast official release 5.0.3 Fix 1\n\n÷Bugfixes\n÷Additional options\n÷New design\n÷Changes to PA api\n÷Speed improved"
+			android:textSize="16sp"
+			android:textColor="@color/text"
+			android:layout_weight="1" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="School Stats Premium enthält:\n\n- Unendlich viele Kollektionen🧭\n- Export der Graphen als png 🖼\n- Interaktive Graphen 💫\n- Hardware acceleration 🚄\n- Pin lock 🔒\n- Alle zukünftigen Premium Features ⚡️\n\nEinmalige Zahlung von 14€  oder 0.99€ monatlich über PayPal\n\nEin Kauf von SchoolStats Premium unterstützt unser zwei zweiköpfiges Entwicklerteam!"
+			android:textSize="16sp"
+			android:textColor="@color/text"
+			android:layout_weight="1" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Contact"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#29B6F6"
+			android:layout_gravity="right" />
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:padding="8dp"
+			android:text="Jetzt erwerben"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/text" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
+				android:padding="8dp"
+				android:text="Bedienung"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="@color/text"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
